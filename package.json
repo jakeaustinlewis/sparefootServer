@@ -1,0 +1,29 @@
+{
+  "name": "take-home-animals",
+  "version": "1.0.0",
+  "description": "Front-end take home assignment:server",
+  "main": "index.js",
+  "private": true,
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.16.1",
+    "cors": "^2.8.1",
+    "express": "^4.14.1",
+    "lodash": "^4.17.4",
+    "sequelize": "^3.30.2",
+    "sequelize-cli": "^2.5.1",
+    "sqlite3": "^3.1.8",
+    "umzug": "^1.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon index.js"
+  },
+  "author": "SF Dev",
+  "license": "ISC"
+}
